@@ -5,7 +5,6 @@
         let inputUrl = document.querySelector(".input");
         inputUrl.addEventListener("keydown", (event) => {
             if (event.key === "Enter") {
-                console.log("enter pressed");
                 sendUrl(inputUrl.value);
             }
         });
